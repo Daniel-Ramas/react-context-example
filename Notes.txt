@@ -1,0 +1,22 @@
+Use Consumers component when you want to get several context objects
+example of several context objects
+
+Remember that the consumer will "Consume" the context object that is being passed to the child components
+
+Context for sharing information
+
+Need to fix this application in the future
+
+We wrap LanguageSelector component and User Create Component with Language store so they have the ability to change data in the store
+
+Not actually UserCreate (Components nested within userCreate)
+
+Why to use Redux instead of Context
+Redux:
+excellent documentation
+well known design patterns
+tremendous amount of open source libs
+
+Context:
+no need for extra libs
+unfortunately will need to build a different store for each resource
